@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="style.css"><!--Linking to the style sheet for link-->
+    <title>Test Css file</title>
+</head>
+<!--<style> Internal css it also should be avoided
+    .first-div {/* Keep a space after writing class name and then start brackets */
+        background-color:#FC7300;
+        color: turquoise;/*use ; after each*/
+    }
+    #first-id {
+        background-color: black;
+        color: #FC7300;
+    }
+    p {
+        background-color: chartreuse;
+        color:coral;
+    }
+    h1 {/*overwrite the style always avoid overwritting*/
+        background-color: hotpink;
+    }
+</style>-->
+<body>
+    <!--CSS    Cascading(Combinnig with html documentation) Style Sheets-->
+    <div class="first-div"><!--class can be repeated to many divisions id are unique it cannot be repeated--><!--id should be avoided in production level-->
+        <h1>Manoj</h1>
+    </div>
+    <br>
+    <div class="first-div"><!--class selector-->
+        <H1>This is Css</H1>
+    </div>
+    <br>
+    <div class="first-div">
+        <h1>Class</h1>
+    </div>
+    <br>
+    <div id="first-id"><!--id selector-->
+        <h1>This is a Id Selector
+        </h1>
+    </div>
+    <br>
+    <!--element selector-->
+    <p>This is my paragraphThis is my paragraphThis is my paragraphThis is my paragraphThis is my paragraphThis is my paragraphThis is my paragraphThis is my paragrapThis is my paragraphThis is my paragraphThis is my paragraphThis is my paragrap</p>
+    <br>
+    <div style="color:blue;background-color:aqua">My name is manoj</div><!--Inline css it should not be used ever in any project-->
+    <div class="padding_div"><!--This is for learning of padding and margin in any division-->
+        <h1>Manoj</h1>
+    </div>
+    <div class="parent">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <div class="parent1">
+        <div class="child1"></div>
+        
+    </div>
+</body>
+</html>

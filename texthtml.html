@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Test File</title>
+    </head>
+    <body>
+        <h1>Good morning</h1>
+        <br>
+        <h2>Good morning</h2>
+        <h3>Good morning</h3>
+        <h4>Good morning</h4>
+        <h5>Good morning</h5>
+        <h6>Good morning</h6>
+        <br>
+        This is a peragraph tag which is used to write paragraphs in html
+        <br>
+        <p>This is a peragraph tag which is used to write paragraphs in html
+            This is a peragraph tag which is used to write paragraphs in html
+            This is a peragraph tag which is used to write paragraphs in html
+        </p><!-- paragraph tag does't have styling of its own it is a plane text it doesn't recognise any line break or enter -->
+        <br>
+        <strong>This is a strong tag</strong><!--it bold the sentex-->
+        <br>
+        <ol type="A"><!--ordered list--><!--Numbering is done in front of the list-->
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+            <br>
+            <li value="100">item1</li><!--value is called attributes these help us to change the default setting -->
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ol>
+        <br>
+        <ul><!--unorderd list--><!--Bullet points is in the front of the list--><!--and does not have any attributes-->
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+        <br>
+        <i>This is a word</i>
+        <br>
+        <hr>
+        <div><!--Divison_ it is basically where you want to put element to create section-->
+            <h1>This is a  division</h1>
+            <p>This is a peragraph tag which is used to write paragraphs in html
+                This is a peragraph tag which is used to write paragraphs in html
+                This is a peragraph tag which is used to write paragraphs in html
+            </p>
+        </div>
+        <img src="https://media.istockphoto.com/id/1146517111/photo/taj-mahal-mausoleum-in-agra.jpg?s=612x612&w=0&k=20&c=vcIjhwUrNyjoKbGbAQ5sOcEzDUgOfCsm9ySmJ8gNeRk=" width="300" height="600" alt="">
+        <img src="img2.jpg" width="10%" height="5%" >
+        <video controls>
+            <source src="https://pixabay.com/videos/dog-pet-animal-small-furry-cute-15305/" type="video/mp4">
+        </video>
+        <img src="D:\img.jpg">
+        <!--We can put block element inside a block element and inline element inside a block element but the reverse is not true we cannt put block element inside a inline element  -->
+        
+        <div>
+            <h1>This is a block element</h1><!--block elements takes a new line-->
+            <h2>This is also a block element</h2>
+            <strong>This is a inline element</strong>
+            <img src="img2.jpg" width="10%" height="20%">
+        </div>
+        <br>
+        <br>
+        <table border="1"><!--Table tag-->
+            <tr><!--To create row-->
+                <th>Sno</th><!--Create heading-->
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+            <tr>
+                <td>1</td><!--To enter data-->
+                <td>Manoj</td>
+                <td>B-tech</td>
+            </tr>
+        </table>
+        <label for="fruites">Select any fruit:</label><!--for labeling-->
+   <select name="fruites" >
+        <option value="1">Apple</option>
+        <option value="2">Mango</option>
+        <option value="3">Grapes</option>
+   </select>
+   <br>
+   <label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+<br>
+   <!-- The second value will be selected initially -->
+<select name="choice">
+    <option value="first">First Value</option>
+    <option value="second" selected>Second Value</option>
+    <option value="third">Third Value</option>
+  </select>
+  <form >
+    <fieldset>
+    <legend>Personal Information</legend>
+    <label for="fullname">Enter your full name</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="Name" required>
+    <br>
+    <label for="Email">Enter your Email</label>
+    <br>
+    <input type="email" name="email" id="email">
+    <br>
+    <label for="fullname">Enter your password</label>
+    <br>
+    <input type="password" name="password" id="password">
+    <br>
+    <label for="fullname">confirm your password</label>
+    <br>
+    <input type="password" name="password" id="password">
+    <br>
+    <label for="gender">Enter your Gender: </label>
+    <br>
+    <input type="radio" id="gender" name="gender" value="male"/>Male
+    <br>
+    <input type="radio" id="gender" name="gender" value="female"/>Female
+   <br>
+    <input type="radio" id="gender" name="gender" value="Other"/>Other
+    <br>
+    <label for="Address">Enter your address:</label>
+    <br>
+    <input type="text" name="address" id="address">
+    <br>
+    <input type="submit" value="submit">
+    <br>
+</fieldset>
+  </form>
+    </body>
+</html>
